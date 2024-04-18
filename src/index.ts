@@ -11,5 +11,5 @@ export function ohceNextLine(word: string): string {
   if (word === wordReversed) {
     return word + "\n¡Bonita palabra!";
   }
-  return wordReversed + "\n¡Bonita palabra!";
+  return wordReversed;
 }
