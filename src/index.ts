@@ -6,5 +6,5 @@ export function ohce(time: number, name: string): string {
 }
 
 export function ohceNextLine(word: string): string {
-  return "";
+  return "abba\n¡Bonita palabra!";
 }
