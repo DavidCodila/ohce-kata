@@ -17,6 +17,10 @@ test("Greeting at hour 12", () => {
   expect(ohce(12, "david")).toEqual("¡Buenas tardes david!");
 });
 
-test("Palindrome test", () => {
+test("Abba palindrome test", () => {
   expect(ohceNextLine("abba")).toEqual("abba\n¡Bonita palabra!");
+});
+
+test("Mum palindrome test", () => {
+  expect(ohceNextLine("mum")).toEqual("mum\n¡Bonita palabra!");
 });
