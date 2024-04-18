@@ -6,5 +6,10 @@ export function ohce(time: number, name: string): string {
 }
 
 export function ohceNextLine(word: string): string {
-  return "abba\n¡Bonita palabra!";
+  const wordAsCharArray: Array<string> = word.split("");
+  const wordReversed = wordAsCharArray.reverse().join("");
+  if (word === wordReversed) {
+    return word + "\n¡Bonita palabra!";
+  }
+  return wordReversed + "\n¡Bonita palabra!";
 }
