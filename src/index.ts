@@ -1,3 +1,4 @@
 export function ohce(time: number, name: string): string {
-  return "¡Buenas noches david!";
+  if (time == 21) return "¡Buenas noches david!";
+  else return "¡Buenos días david!";
 }

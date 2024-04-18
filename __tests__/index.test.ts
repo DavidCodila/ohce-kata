@@ -6,5 +6,5 @@ test("Greeting between 20 and 6 hours", () => {
 });
 
 test("Greeting between 6 and 12 hours", () => {
-  expect(ohce(21, "david")).toEqual("¡Buenos días david!");
+  expect(ohce(6, "david")).toEqual("¡Buenos días david!");
 });
