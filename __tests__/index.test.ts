@@ -24,3 +24,7 @@ test("Abba palindrome test", () => {
 test("Mum palindrome test", () => {
   expect(ohceNextLine("mum")).toEqual("mum\n¡Bonita palabra!");
 });
+
+test("Cool word test", () => {
+  expect(ohceNextLine("cool")).toEqual("looc");
+});
