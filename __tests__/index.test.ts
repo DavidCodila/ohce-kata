@@ -12,3 +12,7 @@ test("Greeting at hour 20", () => {
 test("Greeting at hour 6", () => {
   expect(ohce(7, "david")).toEqual("¡Buenos días david!");
 });
+
+test("Greeting at hour 12", () => {
+  expect(ohce(7, "david")).toEqual("¡Buenos tardes david!");
+});
